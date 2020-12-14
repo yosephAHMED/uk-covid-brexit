@@ -1,0 +1,31 @@
+.brexit-container {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.brexit-title {
+  font-size: 100px;
+}
+
+@keyframes changeColor {
+  0% {
+    color: #61dafb;
+  }
+  25% {
+    color: #75e1ff;
+  }
+  50% {
+    color: #93e8ff;
+  }
+  75% {
+    color: #beeefb;
+  }
+  100% {
+    color: white;
+  }
+}
