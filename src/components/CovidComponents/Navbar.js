@@ -19,7 +19,7 @@ const Navbar = () => (
         <Link to="/Covid/about">About</Link>
       </li>
       <li className="navbar--link-item">
-        <Link to="/Covid/donate">Discuss</Link>
+        <a href="https://www.redcross.org.uk/get-involved/donate" title="BritishRedCross">Donate</a>
       </li>
     </ul>
   </nav>
