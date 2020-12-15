@@ -11,7 +11,7 @@ export default function About() {
       <div className="covid-container">
         <Navbar />
         <h1 className="covid-title" style={{ color: "white" }}>
-          UK: The Covid Crisis
+            Brexit: UK and the EU
         </h1>
         <img src={ImageOne} className="image" />
         <body>
