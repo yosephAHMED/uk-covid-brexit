@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import "../../assets/Covid.css";
+import ImageOne from "../../assets/images/coronaAbout1.jpg";
 
 export default function About() {
   return (
@@ -10,6 +11,7 @@ export default function About() {
         <h1 className="covid-title" style={{ color: "white" }}>
           UK: The Covid Crisis
         </h1>
+        <img src={ImageOne} style={{padding: "20px"}}/>
         <body>
           <h4>Notes</h4>
           <div className="lines"></div>
