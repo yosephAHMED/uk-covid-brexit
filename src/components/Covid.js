@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import axios from "axios";
 import "../assets/Covid.css";
 import Navbar from "./CovidComponents/Navbar";
 
@@ -13,7 +14,8 @@ export default class Covid extends Component {
       // initial opacity and scale of title
       opacity: 0,
       scale: 10,
-      color: '#61dafb',
+      color: "#61dafb",
+      data: {},
     };
   }
 
@@ -23,9 +25,22 @@ export default class Covid extends Component {
         // set opacity and scale to normal
         opacity: 1,
         scale: 1,
-        color: 'white',
+        color: "white",
       });
     }, 500);
+
+    axios
+      .get(
+        `https://api.coronavirus.data.gov.uk/v1/data?filters=areaType=nation;areaName=england&structure={"date":"date","areaName":"areaName","areaCode":"areaCode","newCasesByPublishDate":"newCasesByPublishDate","cumCasesByPublishDate":"cumCasesByPublishDate","newDeathsByDeathDate":"newDeathsByDeathDate","cumDeathsByDeathDate":"cumDeathsByDeathDate"}`
+      )
+      .then((res) => {
+        this.setState({ data: res.data.data });
+      });
+  }
+
+  componentDidUpdate() {
+    console.log("data: ", this.state.data[0]);
+    console.log("data: ", this.state.data[1]);
   }
 
   render() {
@@ -39,9 +54,9 @@ export default class Covid extends Component {
             opacity: this.state.opacity,
             transform: "scale(" + this.state.scale + ")",
             color: this.state.color,
-            animationName: 'changeColor',
-            animationDelay: '1s',
-            animationDuration: '5s',
+            animationName: "changeColor",
+            animationDelay: "1s",
+            animationDuration: "5s",
           }}
         >
           UK: The Covid Crisis
