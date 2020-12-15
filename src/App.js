@@ -15,11 +15,11 @@ function App() {
     <main>
       <Switch>
         <Route path="/" component={Home} exact />
-        <Route path="/Covid" component={Covid} />
+        <Route path="/Covid" component={Covid} exact />
         <Route path="/Covid/home" component={CovidHome} />
         <Route path="/Covid/about" component={CovidAbout} />
         <Route path="/Covid/donate" component={CovidDonate} />
-        <Route path="/Brexit" component={Brexit} />
+        <Route path="/Brexit" component={Brexit} exact />
         <Route path="/Brexit/home" component={BrexitHome} />
         <Route path="/Brexit/about" component={BrexitAbout} />
         <Route path="/Brexit/blog" component={BrexitDiscuss} />
