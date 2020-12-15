@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../assets/Covid.css";
+import Navbar from "./CovidComponents/Navbar";
 
 const styles = {
   transition: "all 1s ease-in",
@@ -30,6 +31,7 @@ export default class Covid extends Component {
   render() {
     return (
       <div className="covid-container">
+        <Navbar />
         <h1
           className="covid-title"
           style={{
@@ -42,7 +44,7 @@ export default class Covid extends Component {
             animationDuration: '5s',
           }}
         >
-          COVID
+          UK: The Covid Crisis
         </h1>
       </div>
     );

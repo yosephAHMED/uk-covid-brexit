@@ -51,7 +51,7 @@ export default class Home extends Component {
                 to={"/Covid"}
                 onUserClick={this.onUserClickCovid.bind(this)}
               >
-                COVID
+                UK: The Covid Crisis
               </DelayLink>
             </h1>
           </div>
@@ -71,7 +71,7 @@ export default class Home extends Component {
                 to={"/Brexit"}
                 onUserClick={this.onUserClickBrexit.bind(this)}
               >
-                BREXIT
+                Brexit: UK and the EU
               </DelayLink>
             </h1>
           </div>
