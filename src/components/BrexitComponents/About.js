@@ -88,6 +88,12 @@ export default function About() {
             <li>
               Businesses trading with the EU will face a lot more paperwork.
             </li>
+            <li>
+            The Uk will apply a points based immigration system to the EU citizens.
+            </li>
+            <li>
+            People from the UK will stand in a different queue at passport control when arriving in EU countries.
+            </li>
           </ul>
         </body>
       </div>
