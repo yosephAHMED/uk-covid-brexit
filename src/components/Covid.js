@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 import "../assets/Covid.css";
 import Navbar from "./CovidComponents/Navbar";
+import LineGraph from "./CovidComponents/LineGraph";
 import CardImageOne from "../assets/images/2_LU.jpg";
 import CardImageTwo from "../assets/images/corona.jpg";
 
@@ -99,6 +100,7 @@ export default class Covid extends Component {
               <p>Total Deaths: {this.state.data[1].cumDeathsByDeathDate}</p>
             </div>
           </div>
+          <LineGraph json={this.state.data} />
           <h4>https://github.com/publichealthengland/coronavirus-dashboard-api-python-sdk</h4>
         </div>
       );
