@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/uk-covid-brexit/static/css/main.d9f721a6.chunk.css",
-    "main.js": "/uk-covid-brexit/static/js/main.dfcf5d6c.chunk.js",
-    "main.js.map": "/uk-covid-brexit/static/js/main.dfcf5d6c.chunk.js.map",
-    "runtime-main.js": "/uk-covid-brexit/static/js/runtime-main.a689f0e0.js",
-    "runtime-main.js.map": "/uk-covid-brexit/static/js/runtime-main.a689f0e0.js.map",
-    "static/js/2.6405724d.chunk.js": "/uk-covid-brexit/static/js/2.6405724d.chunk.js",
-    "static/js/2.6405724d.chunk.js.map": "/uk-covid-brexit/static/js/2.6405724d.chunk.js.map",
-    "static/js/3.aa3a880f.chunk.js": "/uk-covid-brexit/static/js/3.aa3a880f.chunk.js",
-    "static/js/3.aa3a880f.chunk.js.map": "/uk-covid-brexit/static/js/3.aa3a880f.chunk.js.map",
+    "main.css": "/uk-covid-brexit/static/css/main.c6ef37c3.chunk.css",
+    "main.js": "/uk-covid-brexit/static/js/main.eae1870e.chunk.js",
+    "main.js.map": "/uk-covid-brexit/static/js/main.eae1870e.chunk.js.map",
+    "runtime-main.js": "/uk-covid-brexit/static/js/runtime-main.9371640c.js",
+    "runtime-main.js.map": "/uk-covid-brexit/static/js/runtime-main.9371640c.js.map",
+    "static/js/2.2dcf8810.chunk.js": "/uk-covid-brexit/static/js/2.2dcf8810.chunk.js",
+    "static/js/2.2dcf8810.chunk.js.map": "/uk-covid-brexit/static/js/2.2dcf8810.chunk.js.map",
+    "static/js/3.ccca9c14.chunk.js": "/uk-covid-brexit/static/js/3.ccca9c14.chunk.js",
+    "static/js/3.ccca9c14.chunk.js.map": "/uk-covid-brexit/static/js/3.ccca9c14.chunk.js.map",
     "index.html": "/uk-covid-brexit/index.html",
-    "static/css/main.d9f721a6.chunk.css.map": "/uk-covid-brexit/static/css/main.d9f721a6.chunk.css.map",
-    "static/js/2.6405724d.chunk.js.LICENSE.txt": "/uk-covid-brexit/static/js/2.6405724d.chunk.js.LICENSE.txt",
+    "static/css/main.c6ef37c3.chunk.css.map": "/uk-covid-brexit/static/css/main.c6ef37c3.chunk.css.map",
+    "static/js/2.2dcf8810.chunk.js.LICENSE.txt": "/uk-covid-brexit/static/js/2.2dcf8810.chunk.js.LICENSE.txt",
     "static/media/2_LU.e8886849.jpg": "/uk-covid-brexit/static/media/2_LU.e8886849.jpg",
     "static/media/brexit1.ba71910f.jpg": "/uk-covid-brexit/static/media/brexit1.ba71910f.jpg",
     "static/media/brexit2.7953c09f.jpg": "/uk-covid-brexit/static/media/brexit2.7953c09f.jpg",
@@ -23,9 +23,9 @@
     "static/media/logo.6ce24c58.svg": "/uk-covid-brexit/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a689f0e0.js",
-    "static/js/2.6405724d.chunk.js",
-    "static/css/main.d9f721a6.chunk.css",
-    "static/js/main.dfcf5d6c.chunk.js"
+    "static/js/runtime-main.9371640c.js",
+    "static/js/2.2dcf8810.chunk.js",
+    "static/css/main.c6ef37c3.chunk.css",
+    "static/js/main.eae1870e.chunk.js"
   ]
 }
