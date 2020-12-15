@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/uk-covid-brexit/static/css/main.d9f721a6.chunk.css",
-    "main.js": "/uk-covid-brexit/static/js/main.a871a2db.chunk.js",
-    "main.js.map": "/uk-covid-brexit/static/js/main.a871a2db.chunk.js.map",
+    "main.js": "/uk-covid-brexit/static/js/main.018249a8.chunk.js",
+    "main.js.map": "/uk-covid-brexit/static/js/main.018249a8.chunk.js.map",
     "runtime-main.js": "/uk-covid-brexit/static/js/runtime-main.a689f0e0.js",
     "runtime-main.js.map": "/uk-covid-brexit/static/js/runtime-main.a689f0e0.js.map",
     "static/js/2.6405724d.chunk.js": "/uk-covid-brexit/static/js/2.6405724d.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.a689f0e0.js",
     "static/js/2.6405724d.chunk.js",
     "static/css/main.d9f721a6.chunk.css",
-    "static/js/main.a871a2db.chunk.js"
+    "static/js/main.018249a8.chunk.js"
   ]
 }
