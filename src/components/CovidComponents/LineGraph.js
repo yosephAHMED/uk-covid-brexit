@@ -1,6 +1,7 @@
-import React from "react";
-import { Line } from "react-chartjs-2";
 import "../../assets/Chart.css";
+
+import React from "react";
+import {Line} from "react-chartjs-2";
 
 function LineGraph(props) {
   const json = props.json;
@@ -12,35 +13,33 @@ function LineGraph(props) {
   let deathY = [];
 
   if (json !== undefined) {
-    //json is an array of objects
-    //we have to iterate over each index and grab: date(x), newCasesByPublishDate(y)
-    json
-      .slice()
-      .reverse()
-      .forEach((element, index, array) => {
-        // to the arrays
-        x.push(element.date);
-        y.push(element.newCasesByPublishDate);
-        deathY.push(element.newDeathsByDeathDate);
-      });
+    // json is an array of objects
+    // we have to iterate over each index and grab: date(x),
+    // newCasesByPublishDate(y)
+    json.slice().reverse().forEach((element, index, array) => {
+      // to the arrays
+      x.push(element.date);
+      y.push(element.newCasesByPublishDate);
+      deathY.push(element.newDeathsByDeathDate);
+    });
   }
 
   let dataObj = {
-    labels: x,
-    datasets: [
+    labels : x,
+    datasets : [
       {
-        label: "newCasesByPublishDate",
-        data: y,
+        label : "newCasesByPublishDate",
+        data : y,
       },
     ],
   };
 
   let deathDataObj = {
-    labels: x,
-    datasets: [
+    labels : x,
+    datasets : [
       {
-        label: "newDeathsByDeathDate",
-        data: deathY,
+        label : "newDeathsByDeathDate",
+        data : deathY,
       },
     ],
   };
@@ -49,41 +48,36 @@ function LineGraph(props) {
     <div>
       <div className="chart">
         <Line
-          data={dataObj}
-          height={400}
-          width={600}
-          options={{
-            scales: {
-              yAxes: [
-                {
-                  ticks: {
-                    beginAtZero: true,
-                  },
+  data = {dataObj} height = {400} width = {600} options = {
+    {
+      scales: {
+        yAxes:
+            [
+              {
+                ticks : {
+                  beginAtZero : true,
                 },
-              ],
-            },
-          }}
-        />
-      </div>
-      <div className="chart">
-        <Line
-          data={deathDataObj}
-          height={400}
-          width={600}
-          options={{
-            scales: {
-              yAxes: [
-                {
-                  ticks: {
-                    beginAtZero: true,
-                  },
+              },
+            ],
+      },
+    }
+  } />
+      </div > <div className = "chart">< Line
+  data = {deathDataObj} height = {400} width = {600} options = {
+    {
+      scales: {
+        yAxes:
+            [
+              {
+                ticks : {
+                  beginAtZero : true,
                 },
-              ],
-            },
-          }}
-        />
-      </div>
-    </div>
+              },
+            ],
+      },
+    }
+  } />
+      </div > < /div>
   );
 }
 
