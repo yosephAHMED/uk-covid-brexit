@@ -19,7 +19,12 @@ const Navbar = () => (
         <Link to="/Brexit/about">About</Link>
       </li>
       <li className="navbar--link-item">
-        <Link to="/Brexit/blog">Discuss</Link>
+        <a
+          href="https://www.facebook.com/GreatBrexitDebate/"
+          title="Facebook forums"
+        >
+          Discuss
+        </a>
       </li>
     </ul>
   </nav>
